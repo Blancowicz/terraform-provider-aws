@@ -7,8 +7,6 @@ on:
       - 'release/**'
   pull_request:
     paths:
-      - go.mod
-      - go.sum
       - internal/generate/common/**
       - internal/provider/**
       - tools/tfsdk2fw/**
